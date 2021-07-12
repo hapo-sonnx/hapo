@@ -41,6 +41,7 @@
 }
 
 @media screen and (min-width: 760px) and (max-width: 1024px) {
+  
   .navbar {
     padding-bottom: 8.5rem;
   }
@@ -75,7 +76,9 @@
     }
   }
 }
+
 @media screen and (max-width: 570px) {
+  
   .header {
     background-color: White;
   }
