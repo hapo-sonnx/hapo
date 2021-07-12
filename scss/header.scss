@@ -1,50 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 .header {
   background-color: aliceblue;
   width: 100%;
 }
+
 .logo {
-     
-      margin-left: 7.96%;
-      margin-top: 1%;
-      margin-bottom: 2%;
-     }
+  margin-left: 7.96%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
 .img-hapo {
   width: 100%;
 }
 
-  
 .navbar {
-  
-  background-color: aliceblue; }
+  background-color: aliceblue;
+}
 
-  .navbar a:hover {
-    border-radius: 17px;
-    color: azure;
-    background: #B2D235; }
+.navbar a:hover {
+  border-radius: 17px;
+  color: azure;
+  background: #b2d235;
+}
 
 .collapse {
- position: absolute;
- top: 30%;
- right: 4%;
+  position: absolute;
+  top: 30%;
+  right: 4%;
 }
 
 .nav-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  color: #505353 ;
+  color: #505353;
   font-size: 17px;
-  line-height: 19px; }
+  line-height: 19px;
+}
 
-@media screen and (min-width:760px) and (max-width:1024px) {
+@media screen and (min-width: 760px) and (max-width: 1024px) {
   .navbar {
     padding-bottom: 8.5rem;
   }
 
   .img-hapo {
-
     width: 62%;
     position: absolute;
     top: 10%;
@@ -61,20 +62,20 @@
     position: absolute;
     top: 56%;
     right: 21%;
-   }
-   
+  }
+
   .collapse:not(.show) {
     display: flex;
     .navbar-nav {
       display: flex;
       flex-direction: row;
-    .nav-item {
-      padding: 0px 25px;
+      .nav-item {
+        padding: 0px 25px;
+      }
     }
-    }
-    }  
-    } 
-@media screen and (max-width:570px){
+  }
+}
+@media screen and (max-width: 570px) {
   .header {
     background-color: White;
   }
@@ -84,7 +85,7 @@
     display: flex;
     flex-direction: column;
   }
-   
+
   .navbar-toggler {
     display: flex;
     position: absolute;
@@ -93,19 +94,17 @@
     padding: 0;
     border: 0;
     margin-top: 5%;
-   
-
   }
 
   .collapse:not(.show) {
     display: none;
   }
-  
+
   .navbar-toggler-icon {
     font-size: inherit;
   }
 
-  .img-hapo{
+  .img-hapo {
     width: 70%;
     margin-left: 8%;
   }
@@ -113,10 +112,10 @@
   .collapse {
     position: initial;
     top: 56%;
-    right: 34%;}
+    right: 34%;
+  }
 
   .navbar-nav {
-  align-items: center;}
-
+    align-items: center;
   }
- 
+}
