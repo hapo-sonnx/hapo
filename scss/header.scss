@@ -1,9 +1,4 @@
-.container-fluid {
-  padding: 0;
-  background-color: $ag-color;
-}
-
-header {
+.home {
   background-color: $ag-color;
 }
 
@@ -15,10 +10,6 @@ header {
 
 .img-hapo {
   width: 100%;
-}
-
-.navbar {
-  background-color: $ag-color;
 }
 
 .navbar a:hover {
@@ -80,8 +71,8 @@ header {
 }
 
 @media screen and (max-width: 414px) {
-  .header {
-    background-color: $w-color;
+  .home {
+    background-color: white;
   }
 
   .navbar {
