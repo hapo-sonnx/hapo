@@ -1,12 +1,17 @@
-.header {
+.container-fluid{
+  padding: 0;
   background-color: $ag-color;
-  width: 100%;
+}
+
+header {
+  background-color: $ag-color;
+ 
 }
 
 .logo {
-  margin-left: 7.96%;
-  margin-top: 1%;
-  margin-bottom: 2%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .img-hapo {
@@ -26,7 +31,7 @@
 .collapse {
   position: absolute;
   top: 30%;
-  right: 4%;
+  right: 40px;
 }
 
 .nav-link {
@@ -38,7 +43,6 @@
   line-height: 19px;
 }
 @media screen and (max-width: 768px) {
-  
   .navbar {
     padding-bottom: 8.5rem;
   }
@@ -75,7 +79,6 @@
 }
 
 @media screen and (max-width: 414px) {
-  
   .header {
     background-color: $w-color;
   }
@@ -93,7 +96,7 @@
     top: 0;
     padding: 0;
     border: 0;
-    margin-top: 5%;
+    margin-top: 28px;
   }
 
   .collapse:not(.show) {
@@ -106,7 +109,9 @@
 
   .img-hapo {
     width: 70%;
-    margin-left: 8%;
+    margin-left: 13px;
+    position: initial;
+    top: 0;
   }
 
   .collapse {
