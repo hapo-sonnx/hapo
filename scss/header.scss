@@ -1,0 +1,116 @@
+.home {
+  background-color: $ag-color;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.img-hapo {
+  width: 100%;
+}
+
+.navbar a:hover {
+  border-radius: 17px;
+  color: $bg-color;
+  background: $cg-color;
+}
+
+.collapse {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.nav-link {
+  font-family: $font-Opensans;
+  font-style: normal;
+  font-weight: bold;
+  color: $txt-color;
+  font-size: 17px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding-bottom: 8.5rem;
+  }
+
+  .img-hapo {
+    width: 62%;
+    position: absolute;
+    left: 7.5rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .collapse {
+    position: absolute;
+    top: 56%;
+    right: 103px;
+  }
+
+  .collapse:not(.show) {
+    display: flex;
+
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+
+      .nav-item {
+        padding: 0px 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .home {
+    background-color: white;
+  }
+
+  .navbar {
+    background-color: $w-color;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 28px;
+  }
+
+  .collapse:not(.show) {
+    display: none;
+  }
+
+  .navbar-toggler-icon {
+    font-size: inherit;
+  }
+
+  .img-hapo {
+    width: 70%;
+    margin-left: 13px;
+    position: initial;
+    top: 0;
+  }
+
+  .collapse {
+    position: initial;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+}
