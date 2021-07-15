@@ -1,0 +1,116 @@
+.content-banner {
+  background-image: url('../img/hapo_learn_banner.png');
+  background-repeat: no-repeat;
+  height: 655px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 27px;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.text-learn {
+  font-family: $font-Opensans;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.05em;
+  color: $bl-color;
+}
+
+.text-at {
+  font-family: $font-Opensans;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 61px;
+  color: $bl-color;
+}
+
+.text-inter {
+  display: block;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+}
+
+.text-start {
+  margin-top: 35px;
+  font-family: $font-Opensans;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 51px;
+  letter-spacing: -0.05em;
+  color: $ag-color;
+  border: 0.3px solid $ag-color;
+  background: $cg-color;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  &:hover {
+    background: $hover-color;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    height: 350px;
+    background-size: contain;
+  }
+
+  .text-learn {
+    font-size: 29px;
+    line-height: 18px;
+  }
+
+  .text-at {
+    font-size: 31px;
+  }
+
+  .text-inter {
+    font-size: 17px;
+  }
+
+  .text-start {
+    width: 235px;
+    font-size: 22px;
+    margin-top: 19px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .content-banner {
+    height: 418px;
+    justify-content: flex-end;
+    background-size: 448px;
+    background-position-x: -100px;
+  }
+
+  .text-learn {
+    font-size: 30px;
+  }
+
+  .text-start {
+    width: 90%;
+  }
+
+  .navbar {
+    position: absolute;
+      z-index: 1;
+      width: 100%;
+      padding: 0;
+  }
+
+  .banner {
+    position: absolute;
+    top: 9%;
+    width: 100%;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
