@@ -1,5 +1,5 @@
-.content {
-  background-image: url('../img/Hapo_Learn_banner\ 1.png');
+.content-banner {
+  background-image: url('../img/Hapo_Learn_banner.png');
   background-repeat: no-repeat;
   height: 655px;
   background-size: cover;
@@ -7,6 +7,12 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 27px;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .text-learn {
@@ -32,10 +38,12 @@
   letter-spacing: -0.05em;
 }
 
+.d-flex {
+  width: 50%;
+}
+
 .text-start {
   margin-top: 35px;
-  width: 308px;
-  height: 57px;
   font-family: $font-Opensans;
   font-weight: 600;
   font-size: 27px;
@@ -78,7 +86,7 @@
 }
 
 @media screen and (max-width: 414px) {
-  .content {
+  .content-banner {
     height: 418px;
     justify-content: flex-end;
     background-size: 448px;
