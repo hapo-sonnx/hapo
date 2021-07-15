@@ -1,5 +1,5 @@
 .content-banner {
-  background-image: url('../img/Hapo_Learn_banner.png');
+  background-image: url('../img/hapo_learn_banner.png');
   background-repeat: no-repeat;
   height: 655px;
   background-size: cover;
@@ -31,15 +31,11 @@
   color: $bl-color;
 }
 
-.Inter {
+.text-inter {
   display: block;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.05em;
-}
-
-.d-flex {
-  width: 50%;
 }
 
 .text-start {
@@ -74,7 +70,7 @@
     font-size: 31px;
   }
 
-  .Inter {
+  .text-inter {
     font-size: 17px;
   }
 
