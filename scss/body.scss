@@ -25,8 +25,7 @@
   color: $bl-color;
 }
 
-.small,
-small {
+.Inter {
   display: block;
   font-size: 20px;
   line-height: 25px;
@@ -47,7 +46,6 @@ small {
   background: $cg-color;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-
   &:hover {
     background: $hover-color;
   }
@@ -68,8 +66,7 @@ small {
     font-size: 31px;
   }
 
-  .small,
-  small {
+  .Inter {
     font-size: 17px;
   }
 
@@ -102,6 +99,7 @@ small {
       width: 100%;
       padding: 0;
   }
+
   .banner {
     position: absolute;
     top: 9%;
@@ -111,5 +109,4 @@ small {
   .logo {
     margin: 0;
   }
-
 }
