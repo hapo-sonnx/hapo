@@ -56,8 +56,8 @@
   }
 }
 
-.group{
- width: 80%;
+.group {
+  width: 80%;
 }
 
 .text-ruby {
@@ -140,6 +140,57 @@
   margin-top: 15px;
 }
 
+.view {
+  text-align: center;
+}
+
+.text-view {
+  font-size: 40px;
+  color: $hover-color;
+  text-decoration: blink;
+}
+
+.arrow {
+  width: 3%;
+  margin-top: -10px;
+}
+
+.row-why {
+  background-size: cover;
+  background-image: url("../img/Rectangle17.png");
+  height: 600px;
+  margin-top: 90px;
+
+  .col-hapo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.col-left {
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+.cotainer-laptop {
+  position: relative;
+}
+
+.img-laptop {
+  position: absolute;
+  top: 96rem;
+}
+
+.text-why {
+  color: White;
+  font-size: 60px;
+}
+
+.text-interactive {
+  color: White;
+}
+
 @media screen and (max-width: 768px) {
   .content-banner {
     height: 337px;
@@ -181,7 +232,7 @@
   }
 
   .card-title {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .card-text {
@@ -194,13 +245,12 @@
 
   .group {
     margin-top: 40px;
+    width: 96%;
   }
 
   .other {
     margin-top: 40px;
   }
-
-  
 
   .card-img-laravel {
     margin-bottom: 59px;
@@ -210,7 +260,38 @@
   .card-img-java {
     width: 66%;
     margin-bottom: 37px;
-    margin-top: 26px;
+    margin-top: 32px;
+  }
+
+  .text-ruby {
+    width: 96%;
+  }
+
+  .row-why {
+    height: 394px;
+  }
+
+  .img-laptop {
+    width: 34%;
+    top: 79rem;
+  }
+
+  .img-mobi {
+    width: 100%;
+  }
+
+  .row-why
+ 
+  .col-hapo {
+    width: 50%;
+  }
+
+  .text-interactive {
+    font-size: 14px;
+  }
+
+  .text-why {
+    font-size: 40px;
   }
 }
 
@@ -265,7 +346,7 @@
 
   .card {
     margin-bottom: 30px;
-    
+
     .card-text {
       -webkit-box-orient: initial;
     }
@@ -277,5 +358,31 @@
 
   .text-other {
     font-size: 50px;
+  }
+
+  .img-laptop {
+    position: relative;
+    width: 50%;
+    top: 11rem;
+  }
+
+  .row-why {
+    height: 600px;
+    display: block;
+  }
+
+  .row-why 
+  
+  .col-hapo {
+    width: 100%;
+  }
+
+  .text-why {
+    font-size: 47px;
+    width: 40%;
+  }
+
+  .img-mobi {
+    margin-top: -41px;
   }
 }
