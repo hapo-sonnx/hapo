@@ -157,7 +157,7 @@
 
 .row-why {
   background-size: cover;
-  background-image: url("../img/Rectangle17.png");
+  background-image: url("../img/rectangle-17.png");
   height: 600px;
   margin-top: 90px;
 
@@ -280,10 +280,10 @@
     width: 100%;
   }
 
-  .row-why
- 
-  .col-hapo {
-    width: 50%;
+  .row-why {
+    .col-hapo {
+      width: 50%;
+    }
   }
 
   .text-interactive {
@@ -371,10 +371,10 @@
     display: block;
   }
 
-  .row-why 
-  
-  .col-hapo {
-    width: 100%;
+  .row-why {
+    .col-hapo {
+      width: 100%;
+    }
   }
 
   .text-why {
