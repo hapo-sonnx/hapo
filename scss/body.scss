@@ -1,5 +1,5 @@
 .content-banner {
-  background-image: url('../img/hapo_learn_banner.png');
+  background-image: url("../img/hapo_learn_banner.png");
   background-repeat: no-repeat;
   height: 655px;
   background-size: cover;
@@ -39,6 +39,7 @@
 }
 
 .text-start {
+  width: 50%;
   margin-top: 35px;
   font-family: $font-Opensans;
   font-weight: 600;
@@ -55,10 +56,93 @@
   }
 }
 
+.group{
+ width: 80%;
+}
+
+.text-ruby {
+  width: 80%;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.logo {
+  border-radius: 1rem;
+  margin: 0;
+}
+
+.html {
+  background-color: $h-color;
+}
+
+.laravel {
+  background-color: $lara-color;
+}
+
+.php {
+  background-color: $php-color;
+}
+
+.card-img-top {
+  width: 66%;
+  margin-bottom: 23px;
+  margin-top: 23px;
+}
+
+.card-img-left {
+  width: 54%;
+  margin-bottom: 23px;
+  margin-top: 23px;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  color: $cg-color;
+}
+
+.other {
+  text-align: center;
+}
+
+.text-other {
+  width: 100%;
+  margin-top: 106px;
+  font-size: 3.5rem;
+  text-align: center;
+  display: inline;
+  border-bottom: 5px $cg-color solid;
+  border-radius: 3px;
+}
+
+.card-img-css {
+  width: 66%;
+  margin-bottom: 54px;
+  margin-top: 48px;
+}
+
+.card-img-laravel {
+  width: 66%;
+  margin-bottom: 59px;
+  margin-top: 69px;
+}
+
+.card-img-java {
+  width: 66%;
+  margin-bottom: 32px;
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 768px) {
-  .content {
-    height: 350px;
-    background-size: contain;
+  .content-banner {
+    height: 337px;
   }
 
   .text-learn {
@@ -79,14 +163,67 @@
     font-size: 22px;
     margin-top: 19px;
   }
+
+  .text-row {
+    margin: 0;
+    display: flex;
+    flex-wrap: initial;
+  }
+
+  .ruby {
+    margin: 0;
+    display: flex;
+    flex-wrap: initial;
+  }
+
+  .row > * {
+    width: 33%;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .group {
+    margin-top: 40px;
+  }
+
+  .other {
+    margin-top: 40px;
+  }
+
+  
+
+  .card-img-laravel {
+    margin-bottom: 59px;
+    margin-top: 57px;
+  }
+
+  .card-img-java {
+    width: 66%;
+    margin-bottom: 37px;
+    margin-top: 26px;
+  }
 }
 
 @media screen and (max-width: 414px) {
   .content-banner {
-    height: 418px;
+    height: 433px;
     justify-content: flex-end;
     background-size: 448px;
     background-position-x: -100px;
+  }
+
+  .banner-text {
+    width: 100%;
   }
 
   .text-learn {
@@ -99,18 +236,46 @@
 
   .navbar {
     position: absolute;
-      z-index: 1;
-      width: 100%;
-      padding: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0;
   }
 
   .banner {
-    position: absolute;
-    top: 9%;
-    width: 100%;
+    padding-top: 52px;
   }
 
   .logo {
     margin: 0;
+  }
+
+  .group {
+    padding-top: 0px;
+  }
+
+  .text-row {
+    margin: 0;
+    display: block;
+  }
+
+  .ruby {
+    margin: 0;
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 30px;
+    
+    .card-text {
+      -webkit-box-orient: initial;
+    }
+  }
+
+  .row > * {
+    width: 100%;
+  }
+
+  .text-other {
+    font-size: 50px;
   }
 }
