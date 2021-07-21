@@ -183,12 +183,88 @@
 }
 
 .text-why {
-  color: White;
+  color: $ag-color;
   font-size: 60px;
 }
 
 .text-interactive {
-  color: White;
+  color: $ag-color;
+}
+
+.text-what {
+  text-align: center;
+  font-size: 25px;
+}
+
+.text-feed {
+  width: 100%;
+  font-size: 80px;
+  text-align: center;
+  display: inline;
+  border-bottom: 5px $cg-color solid;
+  border-radius: 3px;
+}
+
+.row-feedback {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-content-row {
+  padding: 0 40px;
+  border: 1px solid $ag-color;
+  border-radius: 15px;
+  margin: 0;
+}
+
+.feedback-content {
+  font-size: 20px;
+  color: black;
+  border-left: 2px $ag-color solid;
+  padding-left: 15px;
+  margin: 30px 0;
+}
+
+.seed {
+  position: absolute;
+  margin-top: 11.25em;
+  border-left: 16px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid $ag-color;
+  width: 5%;
+  padding: 0px;
+}
+
+.user-feedback {
+  margin-top: 50px;
+}
+
+.checked {
+  color: $ck-color;
+}
+
+.carousel-control-prev {
+  background-color: $bl-color;
+  width: 50px;
+  height: 50px;
+  border: solid 5px $bl-color;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-left: 90px;
+  margin-top: 57px;
+}
+
+.carousel-control-next {
+  background-color: $bl-color;
+  width: 50px;
+  height: 50px;
+  border: solid 5px $bl-color;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-right: 75px;
+  margin-top: 57px;
 }
 
 @media screen and (max-width: 768px) {
@@ -293,6 +369,36 @@
   .text-why {
     font-size: 40px;
   }
+
+  .feedback-left {
+    width: 89%;
+  }
+
+  .feedback-content {
+    width: 90%;
+  }
+
+  .feedback-right {
+    display: none;
+  }
+
+  .seed {
+    width: 4%;
+  }
+
+  .col-img {
+    width: 10%;
+  }
+
+  .carousel-control-prev {
+    margin-left: 8px;
+    margin-top: 60px;
+  }
+
+  .carousel-control-next {
+    margin-right: 8px;
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -384,5 +490,52 @@
 
   .img-mobi {
     margin-top: -41px;
+  }
+
+  .other {
+    margin-top: 60px;
+  }
+
+  .text-interactive {
+    font-size: 13px;
+  }
+
+  .feedback-left {
+    width: 95%;
+  }
+
+  .feedback-content {
+    width: 100%;
+  }
+
+  .feedback-right {
+    display: none;
+  }
+
+  .seed {
+    width: 4%;
+    margin-top: 19.15em;
+  }
+
+  .col-name {
+    width: 17%;
+  }
+
+  .text-feed {
+    font-size: 40px;
+  }
+
+  .text-what {
+    font-size: 13px;
+  }
+
+  .carousel-control-prev {
+    margin-left: 0px;
+    margin-top: 117px;
+  }
+
+  .carousel-control-next {
+    margin-right: 0px;
+    margin-top: 117px;
   }
 }
