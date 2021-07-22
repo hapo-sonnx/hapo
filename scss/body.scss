@@ -267,6 +267,75 @@
   margin-top: 57px;
 }
 
+.img-bacome {
+  background-image: url("../img/img-become.png");
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.bacome {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.text-become {
+  font-size: 60px;
+  color: $ag-color;
+  width: 50%;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.text-startlearning {
+  width: 28%;
+  margin-top: 35px;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 51px;
+  letter-spacing: -0.05em;
+  color: $cg-color;
+  border: 0.3px solid $cg-color;
+  background: $ag-color;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  text-align: center;
+}
+
+.learning {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.static {
+  text-align: center;
+}
+
+.text-static {
+  width: 100%;
+  font-size: 80px;
+  display: inline;
+  border-bottom: 5px $cg-color solid;
+  border-radius: 3px;
+}
+
+.row-statistic-index {
+  margin-top: 30px;
+}
+
+.col-statistic {
+  text-align: center;
+  font-size: 29px;
+}
+
+.text-index {
+  color: $cg-color;
+}
+
 @media screen and (max-width: 768px) {
   .content-banner {
     height: 337px;
@@ -398,6 +467,19 @@
   .carousel-control-next {
     margin-right: 8px;
     margin-top: 60px;
+  }
+
+  .img-bacome {
+    height: 266px;
+  }
+
+  .text-become {
+    font-size: 29px;
+  }
+
+  .text-startlearning {
+    font-size: 23px;
+    margin-top: 0px;
   }
 }
 
@@ -537,5 +619,20 @@
   .carousel-control-next {
     margin-right: 0px;
     margin-top: 117px;
+  }
+
+  .img-bacome {
+    height: 130px;
+  }
+
+  .text-become {
+    font-size: 15px;
+    margin-top: 13px;
+  }
+
+  .text-startlearning {
+    font-size: 14px;
+    margin-top: 0px;
+    width: 37%;
   }
 }
