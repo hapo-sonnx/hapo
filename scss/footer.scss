@@ -1,0 +1,115 @@
+.footer {
+  background-color: #505353;
+  height: 300px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-sub {
+  color: #ffff;
+}
+
+.text-footer {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.logo-text {
+  width: 62%;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  float: right;
+}
+
+.contact {
+  margin-top: 50px;
+}
+
+.text-home {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.col-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-secondary {
+  background-color: #505353;
+  border-color: #505353;
+}
+
+.footer-bottom {
+  height: 38px;
+  background-color: #454545;
+}
+
+.text-all {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .text-footer {
+    text-align: left;
+  }
+
+  .logo-text {
+    width: 100%;
+    font-size: 18px;
+    float: left;
+  }
+
+  .logo-footer {
+    width: 90%;
+  }
+
+  .contact {
+    width: 15%;
+  }
+
+  .text-all {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer {
+    height: 400px;
+  }
+
+  .text-footer {
+    text-align: left;
+    position: absolute;
+    margin-top: 219px;
+  }
+
+  .logo-text {
+    width: 55%;
+    font-size: 11px;
+    float: left;
+  }
+
+  .logo-footer {
+    width: 47%;
+  }
+
+  .contact {
+    width: 48%;
+  }
+
+  .col-button {
+    text-align: end;
+    margin-top: 0;
+  }
+}
