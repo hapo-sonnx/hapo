@@ -1,5 +1,5 @@
 .footer {
-  background-color: #505353;
+  background-color: $txt-color;
   height: 300px;
   margin-top: 60px;
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .logo-sub {
-  color: #ffff;
+  color: $ag-color;
 }
 
 .text-footer {
@@ -24,7 +24,7 @@
   width: 62%;
   text-align: left;
   font-size: 20px;
-  color: white;
+  color: $ag-color;
   float: right;
 }
 
@@ -34,7 +34,7 @@
 
 .text-home {
   font-size: 20px;
-  color: white;
+  color: $ag-color;
   text-align: center;
 }
 
@@ -44,17 +44,17 @@
 }
 
 .btn-secondary {
-  background-color: #505353;
-  border-color: #505353;
+  background-color: $txt-color;
+  border-color: $txt-color;
 }
 
 .footer-bottom {
   height: 38px;
-  background-color: #454545;
+  background-color: $bt-color;
 }
 
 .text-all {
-  color: white;
+  color: $ag-color;
   text-align: center;
   font-size: 19px;
 }
