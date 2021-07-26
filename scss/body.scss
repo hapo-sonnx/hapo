@@ -182,6 +182,10 @@
   top: 96rem;
 }
 
+.img {
+  width: 100%;
+}
+
 .text-why {
   color: $ag-color;
   font-size: 60px;
@@ -208,13 +212,15 @@
 .row-feedback {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .feedback-content-row {
   padding: 0 40px;
   border: 1px solid $ag-color;
   border-radius: 15px;
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .feedback-content {
@@ -325,6 +331,8 @@
 
 .row-statistic-index {
   margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .col-statistic {
