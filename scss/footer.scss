@@ -61,8 +61,8 @@
   z-index: 50;
   position: fixed;
   width: 360px;
-  bottom: 8%;
-  right: -18%;
+  bottom: 14px;
+  right: -17rem;
 }
 
 .text-mess {
@@ -71,7 +71,7 @@
   width: 25%;
   background: white;
   border-radius: 23px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 8px $textmess-color;
   z-index: 50;
   position: fixed;
   bottom: 21%;
@@ -136,7 +136,7 @@
   top: 10px;
   margin-left: 21rem;
 }
-// content login
+
 .modalcontent {
   border: $ag-color;
   border-radius: inherit;
@@ -196,6 +196,7 @@
   font-size: 16px;
   text-align: center;
   color: white;
+
   .icon-gg,
   .icon-face {
     padding: 10px;
