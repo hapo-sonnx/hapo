@@ -25,6 +25,7 @@
   font-size: 20px;
   color: $ag-color;
   float: right;
+  font-family: $font_UTM_BryantLG;
 }
 
 .contact {
@@ -34,7 +35,10 @@
 .text-home {
   font-size: 20px;
   color: $ag-color;
-  text-align: center;
+  text-align: left;
+  font-family: $font_UTM_BryantLG;
+  cursor: pointer;
+  margin-left: 88px;
 }
 
 .col-button {
@@ -55,6 +59,7 @@
   color: $ag-color;
   text-align: center;
   font-size: 19px;
+  font-family: $font_UTM_BryantLG;
 }
 
 .img-mess {

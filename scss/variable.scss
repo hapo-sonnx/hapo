@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+    font-family: "utm_bryantlgregular";
+    src: url(../assets/font/utm_bryantlg-webfont.woff) format("woff2"),
+      url(../assets/font/utm_bryantlg-webfont.woff2) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+$font_UTM_BryantLG: "utm_bryantlgregular";
 $ag-color: aliceblue;
 $bg-color: azure;
 $cg-color: #b2d235;
-$txt-color:#505353;
-$w-color:White;
+$txt-color: #505353;
+$w-color: White;
 $h-color: #3f6185;
 $lara-color: #dc594c;
 $php-color: #556598;
@@ -11,12 +19,12 @@ $bl-color: #11114e;
 $hover-color: #748b18;
 $ck-color: #f2c54f;
 $bl-color: black;
-$bt-color:#454545;
-$mess-color:#3184f7;
-$chat-color:#b3b3b3;
-$close-color:#c4c4c4;
-$user-color:#f2f2f2;
-$gg-color:#dc4e41;
-$face-color:#3b5999;
-$textmess-color:black;
+$bt-color: #454545;
+$mess-color: #3184f7;
+$chat-color: #b3b3b3;
+$close-color: #c4c4c4;
+$user-color: #f2f2f2;
+$gg-color: #dc4e41;
+$face-color: #3b5999;
+$textmess-color: black;
 $font-Opensans: "Open Sans", sans-serif;
