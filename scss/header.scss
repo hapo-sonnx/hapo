@@ -48,10 +48,8 @@
 }
 
 .nav-item {
-  padding-left: 17px;
-  padding-right: 20px;
-  margin-left: 3px;
-  margin-right: 3px;
+  padding-left: 7px;
+  padding-right: 5px;
 }
 
 .nav-item a:hover {
@@ -60,6 +58,10 @@
 }
 
 .nav-link {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  margin-left: 3px;
+  margin-right: 3px;
   font-family: $font-Opensans;
   font-style: normal;
   font-weight: bold;

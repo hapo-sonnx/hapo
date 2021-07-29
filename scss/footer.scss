@@ -91,7 +91,7 @@
 .text-mess {
   display: none;
   height: 185px;
-  padding: 1em 2em 1em 3em;
+  padding: 1em 2em 1em 2em;
   background: white;
   border-radius: 23px;
   box-shadow: 0px 0px 8px $textmess-color;
@@ -180,17 +180,19 @@
   width: 50%;
   margin-right: 0px;
   padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
 }
 
 .login-text {
   text-align: center;
-  height: 50px;
+  height: 58px;
   font-weight: 600;
-    font-family: "utm_bryantlgregular";
-    font-size: 25px;
-    padding: 14px 0;
+  font-family: "utm_bryantlgregular";
+  font-size: 25px;
+  padding: 19px 0;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .nav-pills .nav-link.active,
@@ -207,20 +209,20 @@
   line-height: 40px;
 }
 
-.form-check-input:checked{
+.form-check-input:checked {
   background-color: #b2d235;
-  border-color:#b2d235 ;
+  border-color: #b2d235;
 }
 
 .form-check-label {
   cursor: pointer;
-    font-size: 18px;
-    color: #505353;
-    font-family: "utm_bryantlgregular";
-    font-weight: 600;
+  font-size: 18px;
+  color: #505353;
+  font-family: "utm_bryantlgregular";
+  font-weight: 600;
 }
 
-.forgot-pass{
+.forgot-pass {
   font-weight: 600;
 }
 
@@ -238,47 +240,72 @@
 
 .btn-login {
   text-transform: uppercase;
-    color: white;
-    padding: 7px 20px;
-    margin: 25px auto;
-    background-color: #b2d235;
-    box-shadow: inset 0px 1.5px 2px #6f8710;
-    display: block;
-    text-align: center;
-    border-radius: 35px;
-    width: 35%;
-    font-size: 18px;
-    font-weight: 600;
+  color: white;
+  padding: 7px 20px;
+  margin: 25px auto;
+  background-color: #b2d235;
+  box-shadow: inset 0px 1.5px 2px #6f8710;
+  display: block;
+  text-align: center;
+  border-radius: 35px;
+  width: 35%;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "utm_bryantlgregular";
+  &:hover {
+    color: black;
     text-decoration: none;
-    font-family: "utm_bryantlgregular";
+  }
 }
-
 
 .label-username {
   width: 100%;
-    margin: 5px 0;
-    font-size: 20px;
-    font-weight: 600;
-    color: #505353;
-    font-family: "utm_bryantlgregular";
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #505353;
+  font-family: "utm_bryantlgregular";
 }
 
 .label-password {
   width: 100%;
-    margin: 5px 0;
-    font-size: 20px;
-    font-weight: 600;
-    color: #505353;
-    font-family: "utm_bryantlgregular";
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #505353;
+  font-family: "utm_bryantlgregular";
 }
 
 .text-with {
   margin: 0;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "utm_bryantlgregular";
-    color: #505353;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "utm_bryantlgregular";
+  color: #505353;
   text-align: center;
+}
+
+.login-with {
+  margin-bottom: 0.5rem;
+}
+
+.text-with {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.text-with::before,
+.text-with::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.text-with::before {
+  margin-right: 0.25em;
+}
+.text-with::after {
+  margin-left: 0.25em;
 }
 
 .text-gg,
@@ -295,15 +322,17 @@
 }
 
 .text-gg {
+  margin-top: 20px;
   background-color: $gg-color;
   padding: 9px 0;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .text-face {
   background-color: $face-color;
   padding: 9px 0;
-    border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 40px;
 }
 
 .btn-close {
@@ -329,7 +358,6 @@
 
 @media screen and (max-width: 768px) {
   .text-footer {
-    text-align: right;
     margin-top: 20px;
   }
 
@@ -342,6 +370,7 @@
 
   .logo-footer {
     width: 75%;
+    margin-left: 4px;
   }
 
   .contact {
@@ -404,7 +433,7 @@
   }
 
   .img-mess {
-    right: -64%;
+    right: -38%;
   }
 
   .text-mess {
