@@ -31,8 +31,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                        <li class="nav-item active text-text">
+                            <a class="nav-link texthome" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link all" href="#">All courses</a>
@@ -59,6 +59,7 @@
                 <p class="d-flex justify-content-center text-start">Start Learning Now!</p>
             </div>
         </div>
+        <div class="background-linear-gradient"></div>
     </div>
 
     <div class="container-fluid group">
@@ -72,7 +73,7 @@
                         <h5 class="card-title">HTML/CSS/JS Tutorial</h5>
                         <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I
                             had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="btn btn-primary">Take This Course</a>
+                        <a href="#" class="btn btn-primary text-take">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@
                         <h5 class="card-title">LARAVEL Tutorial</h5>
                         <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I
                             had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="btn btn-primary">Take This Course</a>
+                        <a href="#" class="btn btn-primary text-take">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +99,7 @@
                         <h5 class="card-title">PHP Tutorial</h5>
                         <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I
                             had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="btn btn-primary">Take This Course</a>
+                        <a href="#" class="btn btn-primary text-take">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -120,20 +121,20 @@
                         <h5 class="card-title">CSS Tutorial</h5>
                         <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New
                             Media,...</p>
-                        <a href="#" class="btn btn-primary">Take This Course</a>
+                        <a href="#" class="btn btn-primary text-take">Take This Course</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="card">
-                    <div class="logo laravel">
+                    <div class="logo laravel-logo">
                         <img class="card-img-laravel" src="./img/img-rails.png" alt="rails">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Ruby on rails Tutorial</h5>
                         <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New
                             Media,...</p>
-                        <a href="#" class="btn btn-primary">Take This Course</a>
+                        <a href="#" class="btn btn-primary text-take">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +147,7 @@
                         <h5 class="card-title">Java Tutorial</h5>
                         <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New
                             Media,...</p>
-                        <a href="#" class="btn btn-primary">Take This Course</a>
+                        <a href="#" class="btn btn-primary text-take">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +156,8 @@
 
     <div class="view">
         <span class="all">
-            <a href="#" class="btn-text-view">View All Our Courses</a> <img class="arrow" src="./img/ten.png" alt="arrow">
+            <a href="#" class="btn-text-view">View All Our Courses</a> <img class="arrow" src="./img/ten.png"
+                alt="arrow">
         </span>
     </div>
 
@@ -214,7 +216,7 @@
                         </div>
                         <div class="row user-feedback">
                             <div class="col-2 col-img">
-                                <img src="./img/Ellipse.png" class="feedback" alt="feedback">
+                                <img src="./img/Ellipse.png" class="img-feedback" alt="feedback">
                             </div>
                             <div class="col col-name">
                                 <p class="name-feedback">Hoang Anh Nguyen</p>
@@ -238,11 +240,11 @@
                         </div>
                         <div class="row user-feedback">
                             <div class="col-2 col-img">
-                                <img src="./img/Ellipse.png" class="feedback" alt="feedback">
+                                <img src="./img/Ellipse.png" class="img-feedback" alt="feedback">
                             </div>
                             <div class="col col-name">
                                 <p class="name-feedback">Hoang Anh Nguyen</p>
-                                <p class="-name-feedback">Python</p>
+                                <p class="name-feedback">Python</p>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -264,11 +266,11 @@
                 </div>
                 <div class="row user-feedback">
                     <div class="col-2 col-img">
-                        <img src="./img/Ellipse.png" class="feedback" alt="feedback">
+                        <img src="./img/Ellipse.png" class="img-feedback" alt="feedback">
                     </div>
                     <div class="col col-name">
-                        <p class="user-name-feedback">Hoang Anh Nguyen</p>
-                        <p class="course-name-feedback">Python</p>
+                        <p class="name-feedback">Hoang Anh Nguyen</p>
+                        <p class="name-feedback">Python</p>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -278,11 +280,11 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
+        <a class="fas fa-chevron-circle-left fa-2x icon-feedback" href="#demo" data-slide="prev">
+
         </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
+        <a class="fas fa-chevron-circle-right fa-2x icon-feedbackright" href="#demo" data-slide="next">
+
         </a>
     </div>
 
@@ -333,20 +335,20 @@
             <div class="col-lg-4 col-button">
                 <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                     data-placement="bottom" data-content="facebook.com/tuyen.dung.haposoft">
-                    <i class="fab fa-facebook fa-2x face-footer icon-footer"></i>
+                    <img class="img-icon" src="./img/Group_3.png" alt="icon face">
                 </button>
                 <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                     data-placement="bottom" data-content="+84-85-645-9898">
-                    <i class="fas fa-phone-square fa-2x phone-footer icon-footer"></i>
+                    <img class="img-icon" src="./img/Group_4.png" alt="icon face">
                 </button>
                 <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                     data-placement="bottom" data-content="info@haposoft.com">
-                    <i class="far fa-envelope fa-2x mail-footer icon-footer"></i>
+                    <img class="img-icon" src="./img/Group_5.png" alt="icon face">
                 </button>
             </div>
         </div>
     </footer>
-    
+
     <div class="footer-bottom">
         <p class="text-all">© 2020 HapoLearn, Inc. All rights reserved.</p>
     </div>
@@ -377,7 +379,7 @@
                     <li class="nav-item text-login">
                         <a class="nav-link login-text" data-toggle="pill" href="#menu">REGISTER</a>
                     </li>
-                </ul> 
+                </ul>
                 <div class="tab-content">
                     <div id="home" class="container tab-pane active"><br>
                         <div id="login" class="container tab-pane active">
@@ -427,7 +429,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

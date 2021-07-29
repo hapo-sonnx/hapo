@@ -1,5 +1,5 @@
 .home {
-  background-color:white;
+  background-color: white;
   width: 90%;
 }
 
@@ -13,16 +13,33 @@
   width: 100%;
 }
 
+.text-text{
+  background-color: #b2d235;
+  border-radius: 17px;
+}
+
+.texthome {
+  color: #ffffff !important;
+}
+
 .navbar a:hover {
   border-radius: 17px;
   color: $bg-color;
-  background: $cg-color;
 }
 
 .collapse {
   position: absolute;
   top: 26px;
   right: 40px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a:hover {
+  color:white !important;
+  background: $cg-color;
 }
 
 .nav-link {
@@ -32,6 +49,9 @@
   color: $txt-color;
   font-size: 17px;
   line-height: 19px;
+  a:hover {
+    color:white;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -53,8 +73,9 @@
 
   .collapse {
     position: absolute;
-    top: 56%;
-    right: 69px;
+    top: 64%;
+    right: 3px;
+
   }
 
   .collapse:not(.show) {
