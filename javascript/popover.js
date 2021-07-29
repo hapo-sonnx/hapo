@@ -1,5 +1,5 @@
 $(function () {
-  $('[data-toggle="popover"]').popover(10)
+  $('[data-toggle="tooltip"]').tooltip()
 })
 
 $(document).ready(function () {
