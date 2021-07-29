@@ -15,7 +15,7 @@
 }
 
 .text-footer {
-  text-align: right;
+  text-align: center;
   margin-top: 50px;
 }
 
@@ -38,7 +38,24 @@
   text-align: left;
   font-family: $font_UTM_BryantLG;
   cursor: pointer;
-  margin-left: 88px;
+  margin-left: 150px;
+  -webkit-text-stroke-width: 0.3px;
+  &:hover {
+    font-size: 150%;
+  }
+}
+
+.text-terms {
+  font-size: 20px;
+  color: $ag-color;
+  text-align: left;
+  font-family: $font_UTM_BryantLG;
+  cursor: pointer;
+  margin-left: 33px;
+  -webkit-text-stroke-width: 0.3px;
+  &:hover {
+    font-size: 150%;
+  }
 }
 
 .col-button {
@@ -60,6 +77,7 @@
   text-align: center;
   font-size: 19px;
   font-family: $font_UTM_BryantLG;
+  padding: 7px 0;
 }
 
 .img-mess {
@@ -73,7 +91,7 @@
 .text-mess {
   display: none;
   height: 185px;
-  width: 25%;
+  padding: 1em 2em 1em 3em;
   background: white;
   border-radius: 23px;
   box-shadow: 0px 0px 8px $textmess-color;
@@ -88,49 +106,56 @@
   line-height: 36px;
   font-weight: 600;
   font-size: 13px;
-  margin-left: 54px;
-  margin-top: 22px;
+  margin-left: 24px;
+  margin-top: -7px;
 }
 
 .hapo-text-message {
   border-radius: 15px;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 12px;
+  color: #505353;
+  padding: 12px 15px;
   line-height: 17px;
   background: #f1f0f0;
   display: flex;
   justify-content: center;
-  width: 80%;
-  margin-left: 50px;
+  margin-left: 19px;
 }
 
 .hapo-logo {
   position: absolute;
   margin-top: 2px;
-  margin-left: 10px;
+  margin-left: -20px;
 }
 
 .button-messenger {
-  display: block;
-  border-radius: 10px;
   color: white;
-  background: $mess-color;
-  font-weight: 600;
-  font-size: 19px;
+  font-size: 12px;
+  padding: 10px 40px;
+  background: #3184f7;
+  border-radius: 15px;
   text-align: center;
-  width: 83%;
-  margin-left: 23px;
-  margin-top: 20px;
+  width: fit-content;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  margin-left: 12px;
+  margin-top: 14px;
   text-decoration: none;
 }
 
 .chat-with-txt {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
+  color: #707575;
+  font-family: "Open Sans", sans-serif;
+  margin: 5px 0;
   text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 16px;
   letter-spacing: -0.02em;
-  color: $chat-color;
 }
 
 .close-button {
@@ -154,11 +179,18 @@
 .text-login {
   width: 50%;
   margin-right: 0px;
+  padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
 }
 
 .login-text {
   text-align: center;
-  height: 37px;
+  height: 50px;
+  font-weight: 600;
+    font-family: "utm_bryantlgregular";
+    font-size: 25px;
+    padding: 14px 0;
 }
 
 .nav-pills .nav-link.active,
@@ -169,10 +201,27 @@
 }
 
 .text-username {
-  width: 100%;
+  width: 96%;
   background-color: $user-color;
   border: 1px solid #e2e2e2;
   line-height: 40px;
+}
+
+.form-check-input:checked{
+  background-color: #b2d235;
+  border-color:#b2d235 ;
+}
+
+.form-check-label {
+  cursor: pointer;
+    font-size: 18px;
+    color: #505353;
+    font-family: "utm_bryantlgregular";
+    font-weight: 600;
+}
+
+.forgot-pass{
+  font-weight: 600;
 }
 
 .option-login {
@@ -189,26 +238,55 @@
 
 .btn-login {
   text-transform: uppercase;
-  color: white;
-  padding: 7px 20px;
-  margin: 20px auto;
-  background-color: $cg-color;
-  box-shadow: inset 0px 1.5px 2px $hover-color;
-  display: block;
-  text-align: center;
-  border-radius: 20px;
-  width: 50%;
+    color: white;
+    padding: 7px 20px;
+    margin: 25px auto;
+    background-color: #b2d235;
+    box-shadow: inset 0px 1.5px 2px #6f8710;
+    display: block;
+    text-align: center;
+    border-radius: 35px;
+    width: 35%;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "utm_bryantlgregular";
+}
+
+
+.label-username {
+  width: 100%;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #505353;
+    font-family: "utm_bryantlgregular";
+}
+
+.label-password {
+  width: 100%;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #505353;
+    font-family: "utm_bryantlgregular";
 }
 
 .text-with {
+  margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "utm_bryantlgregular";
+    color: #505353;
   text-align: center;
 }
 
 .text-gg,
 .text-face {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   color: white;
+  cursor: pointer;
 
   .icon-gg,
   .icon-face {
@@ -218,10 +296,14 @@
 
 .text-gg {
   background-color: $gg-color;
+  padding: 9px 0;
+    border-radius: 5px;
 }
 
 .text-face {
   background-color: $face-color;
+  padding: 9px 0;
+    border-radius: 5px;
 }
 
 .btn-close {
@@ -238,6 +320,11 @@
   flex-wrap: nowrap;
   border-bottom: 2px solid #b2d235;
   box-sizing: border-box;
+}
+
+.logo-footer {
+  margin-left: 100px;
+  width: 56%;
 }
 
 @media screen and (max-width: 768px) {

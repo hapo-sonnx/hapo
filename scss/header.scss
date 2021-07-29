@@ -1,6 +1,26 @@
 .home {
   background-color: white;
   width: 90%;
+  margin-top: 15px;
+  margin-bottom: 14px;
+}
+
+:root {
+  width: 100%;
+  height: 100%;
+}
+
+.right-link {
+  width: 100%;
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.mr-auto {
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .logo {
@@ -13,7 +33,7 @@
   width: 100%;
 }
 
-.text-text{
+.text-text {
   background-color: #b2d235;
   border-radius: 17px;
 }
@@ -27,18 +47,15 @@
   color: $bg-color;
 }
 
-.collapse {
-  position: absolute;
-  top: 26px;
-  right: 40px;
-}
-
 .nav-item {
-  margin-right: 20px;
+  padding-left: 17px;
+  padding-right: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .nav-item a:hover {
-  color:white !important;
+  color: white !important;
   background: $cg-color;
 }
 
@@ -49,8 +66,9 @@
   color: $txt-color;
   font-size: 17px;
   line-height: 19px;
+  border-radius: 17px;
   a:hover {
-    color:white;
+    color: white;
   }
 }
 
@@ -75,7 +93,6 @@
     position: absolute;
     top: 64%;
     right: 3px;
-
   }
 
   .collapse:not(.show) {
