@@ -39,6 +39,17 @@
 }
 
 .text-inter {
+  margin-top: 17px;
+  color: #505353;
+  display: block;
+  font-size: 25px;
+  line-height: 39px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  font-family: $font_UTM_BryantLG;
+}
+
+.text-inter-practice {
   color: #505353;
   display: block;
   font-size: 25px;
@@ -49,7 +60,8 @@
 }
 
 .text-start {
-  width: 50%;
+  cursor: pointer;
+  width: 60%;
   padding: 8px 46px;
   margin-top: 35px;
   font-weight: 600;
@@ -67,13 +79,13 @@
 }
 
 .group {
-  width: 80%;
-  margin-top: -56px;
+  padding: 123px;
+  margin-top: -187px;
 }
 
 .text-ruby {
-  width: 80%;
-  margin-top: 30px;
+  padding: 123px;
+  margin-top: -54px;
 }
 
 .btn-primary {
@@ -154,9 +166,18 @@
   font-family: $font_UTM_BryantLG;
   color: #505353;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
-  height: 122px
+  height: 100px;
+}
+
+.card-text-new {
+  font-family: $font_UTM_BryantLG;
+  color: #505353;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  height: 70px;
 }
 
 .card-img-left {
@@ -168,7 +189,7 @@
 .card-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 37px;
   letter-spacing: -0.05em;
   color: $cg-color;
@@ -177,7 +198,13 @@
 
 .other {
   text-align: center;
-  margin-top: 70px;
+  margin-top: -71px;
+  color: #11114e;
+}
+
+.other-feed {
+  text-align: center;
+  margin-top: 50px;
   color: #11114e;
 }
 
@@ -210,7 +237,7 @@
 
 .view {
   text-align: center;
-  margin-top: 48px;
+  margin-top: -72px;
 }
 
 .btn-text-view {
@@ -229,18 +256,23 @@
   margin-top: -10px;
 }
 
-.row-why {
+.why-hapo {
   background-size: cover;
   background-image: url("../img/rectangle_17.png");
-  height: 600px;
+  height: 730px;
   margin-top: 90px;
 
   .col-hapo {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     margin-top: -35px;
   }
+}
+
+.col-right {
+  align-items: initial !important; 
+  margin-top: 16rem !important;
 }
 
 .card-body .text-take {
@@ -248,17 +280,15 @@
   box-shadow: inset 0px 1.5px 2px #6f8710;
   border-radius: 40px;
   font-weight: 600;
-  font-size: 18px;
-  padding: 8px 25px;
+  font-size: 13px;
+  padding: 8px 0px;
   margin: 10px 0;
   color: white;
   font-family: "utm_bryantlgregular";
   &:hover {
-     color: black;
+    color: black;
   }
 }
-
-
 
 .col-left {
   justify-content: flex-end;
@@ -271,11 +301,11 @@
 
 .img-laptop {
   position: absolute;
-  top: 118rem;
+  top: 114rem;
 }
 
 .img-mobi {
-  width: 100%;
+  width: 75%;
 }
 
 .img {
@@ -291,6 +321,7 @@
 
 .text-interactive {
   color: $ag-color;
+  font-size: 20px;
 }
 
 .text-what {
@@ -327,6 +358,7 @@
   border-radius: 15px;
   margin-left: 0;
   margin-right: 0;
+  width: 100%;
 }
 
 .feedback-content {
@@ -381,6 +413,10 @@
   border-radius: 50%;
   position: absolute;
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: #969494;
+  }
 }
 
 .img-become {
@@ -394,7 +430,7 @@
 
 .icon-feedbackright {
   top: 24%;
-  left: 95%;
+  left: 96%;
   font-weight: 300;
   z-index: 999;
   height: 1em;
@@ -403,6 +439,10 @@
   border-radius: 50%;
   position: absolute;
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: #969494;
+  }
 }
 
 .become {
@@ -423,19 +463,16 @@
 }
 
 .text-startlearning {
+  cursor: pointer;
   padding: 10px 35px;
-  margin-top: 35px;
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 51px;
-  letter-spacing: -0.05em;
-  color: $cg-color;
-  border: 0.3px solid $cg-color;
-  background: $ag-color;
-  box-shadow: inset 0px 4px 4px $bl-color;
-  border-radius: 35px;
-  text-align: center;
-  font-family: $font_UTM_BryantLG;
+  background-color: white;
+  font-family: "utm_bryantlgregular";
+  color: #b2d235;
+  text-decoration: none;
+  border-radius: 40px;
+  box-shadow: inset 0px 2px 2px #e3e7e7;
+  font-size: 25px;
+  font-weight: 900;
   &:hover {
     color: black;
   }
@@ -518,7 +555,7 @@
   }
 
   .text-start {
-    width: 235px;
+    width: 72%;
     font-size: 22px;
     margin-top: 19px;
   }
@@ -557,8 +594,8 @@
   }
 
   .group {
-    margin-top: -60px;
-    width: 96%;
+    padding: 0px;
+    margin-top: -87px;
   }
 
   .other {
@@ -576,23 +613,48 @@
     margin-top: 32px;
   }
 
-  .text-ruby {
-    width: 96%;
+  .html-css {
+    height: 130px;
   }
 
-  .row-why {
+  .laravel-logo {
+    height: 130px;
+  }
+
+  .php-java {
+    height: 130px;
+  }
+
+  .view {
+    margin-top: 21px;
+  }
+
+  .text-ruby {
+    padding: 0px;
+    margin-top: 47px;
+  }
+
+  .take {
+    margin-top: 23px !important;
+  }
+
+  .why-hapo {
     height: 446px;
   }
 
   .img-laptop {
     width: 34%;
-    top: 88rem;
+    top: 94rem;
   }
+
+  .img-mobi {
+    width: 100%;
+}
 
   .row-why {
     .col-hapo {
       width: 50%;
-      margin-top: 137px;
+      margin-top: 137px !important;
     }
   }
 
@@ -645,7 +707,6 @@
   .text-startlearning {
     font-size: 23px;
     margin-top: 0px;
-    width: 50%;
   }
 
   .icon-feedbackright {
@@ -653,7 +714,7 @@
   }
 
   .icon-feedback {
-    margin-left: 38px;
+    margin-left: -16px;
   }
 
   .col-button {
@@ -709,6 +770,12 @@
 
   .group {
     padding-top: 0px;
+    width: 85%;
+    margin-top: -60px;
+  }
+
+  .text-ruby {
+    width: 85%;
   }
 
   .text-row {
@@ -743,24 +810,27 @@
     top: -5rem;
   }
 
-  .row-why {
+  .why-hapo {
     height: 600px;
+  }
+
+  .row-why {
     display: block;
   }
 
   .row-why {
     .col-hapo {
       width: 100%;
+      margin-top: -280px !important;
     }
   }
 
   .text-why {
     font-size: 47px;
-    width: 40%;
   }
 
   .img-mobi {
-    margin-top: -110px;
+    margin-top: 242px;
   }
 
   .other {
@@ -826,11 +896,6 @@
   .text-startlearning {
     font-size: 14px;
     margin-top: 0px;
-    width: 37%;
-  }
-
-  .col-left {
-    margin-top: -280px !important;
   }
 
   .icon-feedback {
