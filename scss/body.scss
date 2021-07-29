@@ -92,6 +92,15 @@
   text-align: center;
 }
 
+.laravel-logo {
+  background-color: $lara-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 145px;
+}
+
 .logo {
   border-radius: 15px 15px 0px 0px;
   margin: 0;
@@ -103,6 +112,11 @@
 
 .html-css {
   background-color: #24abe2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 145px;
 }
 
 .laravel {
@@ -115,6 +129,11 @@
 
 .php-java {
   background: #1b75bb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 145px;
 }
 
 .card-img-top {
@@ -167,8 +186,6 @@
 
 .card-img-css {
   width: 66%;
-  margin-bottom: 54px;
-  margin-top: 48px;
 }
 
 .card-img-laravel {
@@ -179,8 +196,6 @@
 
 .card-img-java {
   width: 66%;
-  margin-bottom: 32px;
-  margin-top: 15px;
 }
 
 .view {
@@ -348,7 +363,7 @@
 
 .icon-feedbackright {
   top: 28%;
-  margin-left: 79.5rem;
+  margin-left: 78.5rem;
   font-weight: 300;
   z-index: 999;
   height: 1em;
@@ -451,6 +466,10 @@
     line-height: 18px;
   }
 
+  .banner-text {
+    margin-left: 2px;
+  }
+
   .text-at {
     font-size: 31px;
   }
@@ -503,7 +522,7 @@
   }
 
   .group {
-    margin-top: 40px;
+    margin-top: -60px;
     width: 96%;
   }
 
@@ -527,17 +546,18 @@
   }
 
   .row-why {
-    height: 394px;
+    height: 446px;
   }
 
   .img-laptop {
     width: 34%;
-    top: 79rem;
+    top: 88rem;
   }
 
   .row-why {
     .col-hapo {
       width: 50%;
+      margin-top: 137px;
     }
   }
 
@@ -592,6 +612,27 @@
     margin-top: 0px;
     width: 50%;
   }
+
+  .icon-feedbackright {
+    margin-left: 43.5rem;
+  }
+
+  .icon-feedback {
+    margin-left: 38px;
+  }
+
+  .col-button {
+    width: 34%;
+  }
+
+  .text-home {
+    font-size: 14px !important;
+    margin-left: 6px !important;
+  }
+
+  .col-name {
+    margin-left: 25px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -604,6 +645,8 @@
 
   .banner-text {
     width: 100%;
+    position: absolute;
+    top: 43%;
   }
 
   .text-learn {
@@ -662,7 +705,7 @@
   .img-laptop {
     position: relative;
     width: 50%;
-    top: 11rem;
+    top: -5rem;
   }
 
   .row-why {
@@ -682,7 +725,7 @@
   }
 
   .img-mobi {
-    margin-top: -41px;
+    margin-top: -110px;
   }
 
   .other {
@@ -737,13 +780,29 @@
   }
 
   .text-become {
-    font-size: 15px;
+    font-size: 30px;
     margin-top: 13px;
+  }
+
+  .become {
+    margin-top: 33px;
   }
 
   .text-startlearning {
     font-size: 14px;
     margin-top: 0px;
     width: 37%;
+  }
+
+  .col-left {
+    margin-top: -280px !important;
+  }
+
+  .icon-feedback {
+    margin-left: 7px;
+  }
+
+  .icon-feedbackright {
+    margin-left: 21rem;
   }
 }

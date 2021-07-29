@@ -43,7 +43,7 @@
 
 .col-button {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 81px;
 }
 
 .btn-secondary {
@@ -66,8 +66,8 @@
   z-index: 50;
   position: fixed;
   width: 360px;
-  bottom: 14px;
-  right: -17rem;
+  bottom: 24px;
+  right: -15rem;
 }
 
 .text-mess {
@@ -79,15 +79,17 @@
   box-shadow: 0px 0px 8px $textmess-color;
   z-index: 50;
   position: fixed;
-  bottom: 21%;
-  right: 6%;
+  bottom: 110px;
+  right: 68px;
 }
 
 .hapolearn-text {
+  color: #7f7f7f;
   line-height: 36px;
   font-weight: 600;
-  font-size: 18px;
-  margin-left: 20px;
+  font-size: 13px;
+  margin-left: 54px;
+  margin-top: 22px;
 }
 
 .hapo-text-message {
@@ -95,7 +97,7 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 17px;
-  background: white;
+  background: #f1f0f0;
   display: flex;
   justify-content: center;
   width: 80%;
@@ -119,6 +121,7 @@
   width: 83%;
   margin-left: 23px;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 .chat-with-txt {
@@ -131,6 +134,7 @@
 }
 
 .close-button {
+  position: absolute;
   width: 24px;
   height: 24px;
   background: $close-color;
@@ -149,10 +153,12 @@
 
 .text-login {
   width: 50%;
+  margin-right: 0px;
 }
 
 .login-text {
   text-align: center;
+  height: 37px;
 }
 
 .nav-pills .nav-link.active,
@@ -165,6 +171,8 @@
 .text-username {
   width: 100%;
   background-color: $user-color;
+  border: 1px solid #e2e2e2;
+  line-height: 40px;
 }
 
 .option-login {
@@ -225,19 +233,28 @@
   height: 0.3em;
 }
 
+.nav-pills {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid #b2d235;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 768px) {
   .text-footer {
-    text-align: left;
+    text-align: right;
+    margin-top: 20px;
   }
 
   .logo-text {
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
     float: left;
+    margin-left: 35px;
   }
 
   .logo-footer {
-    width: 90%;
+    width: 75%;
   }
 
   .contact {
@@ -249,11 +266,21 @@
   }
 
   .img-mess {
-    right: -36% ;
+    right: -36%;
   }
 
   .text-mess {
     width: 48%;
+    bottom: 31%;
+  }
+
+  .img-icon {
+    width: 100%;
+  }
+
+  .btn-secondary {
+    width: 50px;
+    height: 40px;
   }
 }
 
@@ -270,8 +297,9 @@
 
   .logo-text {
     width: 55%;
-    font-size: 11px;
+    font-size: 16px;
     float: left;
+    margin-left: 0px;
   }
 
   .logo-footer {
@@ -284,18 +312,25 @@
 
   .col-button {
     text-align: end;
-    margin-top: 0;
+    margin-top: 41px;
+    margin-left: 9px;
   }
 
   .img-mess {
-    right: -77%;
+    right: -64%;
   }
 
   .text-mess {
-    width: 88%;
-  } 
+    width: 81%;
+    bottom: 107px;
+    right: 51px;
+  }
 
   .close-button {
     margin-left: 19rem;
+  }
+
+  .btn-secondary {
+    width: 58px;
   }
 }
