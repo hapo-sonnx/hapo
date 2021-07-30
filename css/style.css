@@ -195,16 +195,17 @@
   border: 0.3px solid aliceblue;
   background: #b2d235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 35px; }
+  border-radius: 35px;
+  font-family: "utm_bryantlgregular"; }
   .text-start:hover {
     color: black; }
 
 .group {
-  padding: 123px;
+  padding: 87px;
   margin-top: -187px; }
 
 .text-ruby {
-  padding: 123px;
+  padding: 87px;
   margin-top: -54px; }
 
 .btn-primary {
@@ -215,7 +216,6 @@
 
 .text-take {
   box-shadow: inset 0px 1.5px 2px #6f8710;
-  width: 60%;
   height: 40px; }
 
 .card {
@@ -273,17 +273,15 @@
   font-family: "utm_bryantlgregular";
   color: #505353;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  height: 100px; }
+  font-size: 18px;
+  line-height: 20px; }
 
 .card-text-new {
   font-family: "utm_bryantlgregular";
   color: #505353;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  height: 70px; }
+  font-size: 18px;
+  line-height: 20px; }
 
 .card-img-left {
   width: 54%;
@@ -293,7 +291,7 @@
 .card-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 28px;
   line-height: 37px;
   letter-spacing: -0.05em;
   color: #b2d235;
@@ -369,13 +367,14 @@
   box-shadow: inset 0px 1.5px 2px #6f8710;
   border-radius: 40px;
   font-weight: 600;
-  font-size: 13px;
-  padding: 8px 0px;
+  font-size: 18px;
+  padding: 6px 32px;
   margin: 10px 0;
   color: white;
   font-family: "utm_bryantlgregular"; }
   .card-body .text-take:hover {
-    color: black; }
+    color: black;
+    border-color: white; }
 
 .col-left {
   justify-content: flex-end;
@@ -427,7 +426,8 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: relative; }
 
 .feedback-content-row {
   padding: 0 40px;
@@ -496,6 +496,7 @@
   margin-top: 70px; }
 
 .icon-feedbackright {
+  display: contents;
   top: 24%;
   left: 96%;
   font-weight: 300;
@@ -509,6 +510,10 @@
   .icon-feedbackright:hover {
     text-decoration: none;
     color: #969494; }
+
+.fa-chevron-circle-right:before {
+  margin-top: 62px;
+  margin-left: -29px; }
 
 .become {
   display: flex;
@@ -747,7 +752,8 @@
   .banner-text {
     width: 100%;
     position: absolute;
-    top: 43%; }
+    top: 43%;
+    margin-left: 19px; }
 
   .text-learn {
     font-size: 30px; }
@@ -904,10 +910,10 @@
   text-align: left;
   font-family: "utm_bryantlgregular";
   cursor: pointer;
-  margin-left: 150px;
+  margin-left: 110px;
   -webkit-text-stroke-width: 0.3px; }
   .text-home:hover {
-    font-size: 150%; }
+    text-decoration: underline; }
 
 .text-terms {
   font-size: 20px;
@@ -918,7 +924,7 @@
   margin-left: 33px;
   -webkit-text-stroke-width: 0.3px; }
   .text-terms:hover {
-    font-size: 150%; }
+    text-decoration: underline; }
 
 .col-button {
   text-align: center;
