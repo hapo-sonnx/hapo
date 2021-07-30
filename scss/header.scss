@@ -5,7 +5,12 @@
   margin-bottom: 14px;
 }
 
-.close {
+.backout {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.my-1 {
   display: none;
 }
 
@@ -88,6 +93,11 @@
 
   .text-text {
     height: 36px;
+    background-color: #ffffff;
+  }
+
+  .texthome {
+    color: #b2d235 !important;
   }
 
   .img-hapo {
@@ -169,6 +179,10 @@
 
   .navbar-nav {
     align-items: center;
+  }
+
+  .nav-link {
+    margin-top: 10px;
   }
 
 }
