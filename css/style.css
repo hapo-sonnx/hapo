@@ -299,7 +299,7 @@
 
 .other {
   text-align: center;
-  margin-top: -71px;
+  margin-top: -14px;
   color: #11114e; }
 
 .other-feed {
@@ -332,7 +332,7 @@
 
 .view {
   text-align: center;
-  margin-top: -72px; }
+  margin-top: -10px; }
 
 .btn-text-view {
   font-size: 40px;
@@ -385,7 +385,7 @@
 
 .img-laptop {
   position: absolute;
-  top: 114rem; }
+  top: 116rem; }
 
 .img-mobi {
   width: 75%; }
@@ -497,10 +497,7 @@
 
 .icon-feedbackright {
   display: contents;
-  top: 24%;
-  left: 96%;
   font-weight: 300;
-  z-index: 999;
   height: 1em;
   color: #969494;
   background: white;
@@ -513,7 +510,8 @@
 
 .fa-chevron-circle-right:before {
   margin-top: 62px;
-  margin-left: -29px; }
+  margin-left: -29px;
+  z-index: 999; }
 
 .become {
   display: flex;
