@@ -42,7 +42,7 @@
   -webkit-text-stroke-width: 0.3px;
   &:hover {
     // font-size: 110%;
-    text-decoration:underline;
+    text-decoration: underline;
   }
 }
 
@@ -55,7 +55,7 @@
   margin-left: 33px;
   -webkit-text-stroke-width: 0.3px;
   &:hover {
-    text-decoration:underline;
+    text-decoration: underline;
   }
 }
 
@@ -210,6 +210,14 @@
   line-height: 40px;
 }
 
+.text-usernamee {
+  width: 83%;
+  background-color: #f2f2f2;
+  border: 1px solid #e2e2e2;
+  line-height: 40px;
+  margin-left: 27px;
+}
+
 .form-check-input:checked {
   background-color: #b2d235;
   border-color: #b2d235;
@@ -269,6 +277,16 @@
   font-family: "utm_bryantlgregular";
 }
 
+.label-usernamee {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #505353;
+  font-family: "utm_bryantlgregular";
+  margin-left: 27px;
+}
+
 .label-password {
   width: 100%;
   margin: 5px 0;
@@ -276,6 +294,7 @@
   font-weight: 600;
   color: #505353;
   font-family: "utm_bryantlgregular";
+  margin-left: 27px;
 }
 
 .text-with {
@@ -359,14 +378,24 @@
 
 @media screen and (max-width: 768px) {
   .text-footer {
-    margin-top: 20px;
+    margin-top: 54px;
   }
 
   .logo-text {
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
     float: left;
     margin-left: 35px;
+  }
+
+  .text-home {
+    font-size: 18px !important;
+    margin-left: 13px !important;
+  }
+
+  .text-terms {
+    font-size: 18px !important;
+    margin-left: -11px !important;
   }
 
   .logo-footer {
@@ -375,7 +404,7 @@
   }
 
   .contact {
-    width: 15%;
+    width: 16%;
   }
 
   .text-all {
@@ -396,7 +425,7 @@
   }
 
   .btn-secondary {
-    width: 50px;
+    width: 64px;
     height: 40px;
   }
 }
@@ -424,7 +453,8 @@
   }
 
   .contact {
-    width: 48%;
+    width: 34%;
+    margin-left: 46px;
   }
 
   .col-button {
@@ -434,7 +464,7 @@
   }
 
   .img-mess {
-    right: -38%;
+    right: -67%;
   }
 
   .text-mess {
@@ -449,5 +479,14 @@
 
   .btn-secondary {
     width: 58px;
+  }
+
+  .modalcontent {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .btn-close {
+    margin-left: 20rem;
   }
 }
