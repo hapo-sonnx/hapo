@@ -818,18 +818,48 @@
   }
 
   .text-learn {
-    font-size: 30px;
-    margin-top: 32px;
+    font-size: 25px;
+    margin-top: 41px;
+    margin-left: 37px;
+  }
+
+  .text-at {
+    font-size: 25px;
+    margin-left: 37px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-body .text-take {
+    padding: 6px 12px;
+    font-size: 18px;
   }
 
   .text-start {
-    width: 90%;
+    width: 79%;
+    margin-left: 31px;
+  }
+
+  .text-inter {
+    font-size: 17px;
+    margin: 0;
+    margin-left: 31px;
+  }
+
+  .text-inter-practice {
+    margin-left: 31px;
+  }
+
+  .inner {
+    margin-top: 22px;
   }
 
   .navbar {
     position: absolute;
     z-index: 1;
-    width: 94%;
+    width: 95%;
     padding: 0;
   }
 
@@ -843,12 +873,12 @@
 
   .group {
     padding-top: 0px;
-    width: 85%;
+    width: 79%;
     margin-top: -60px;
   }
 
   .text-ruby {
-    width: 85%;
+    width: 79%;
   }
 
   .text-row {
@@ -880,7 +910,7 @@
   .img-laptop {
     position: relative;
     width: 50%;
-    top: -5rem;
+    top: -7rem;
   }
 
   .why-hapo {
@@ -902,6 +932,9 @@
     margin-left: 130px;
     font-size: 41px;
     margin-top: 22px;
+    position: relative;
+    top: 0;
+    right: 0;
   }
 
   .img-mobi {
@@ -922,6 +955,7 @@
 
   .feedback-content {
     width: 100%;
+    font-size: 14px;
   }
 
   .feedback-right {
@@ -929,12 +963,21 @@
   }
 
   .seed {
-    width: 4%;
-    margin-top: 19.15em;
+    width: 37%;
+    margin-top: 93px;
+    margin-left: -15px;
   }
 
   .col-name {
     width: 17%;
+  }
+
+  .col-img {
+    width: 20%;
+  }
+
+  .name-feedback {
+    font-size: 16px;
   }
 
   .text-feed {
@@ -942,7 +985,8 @@
   }
 
   .text-what {
-    font-size: 13px;
+    font-size: 16px;
+    padding: 22px;
   }
 
   .carousel-control-prev {
@@ -960,8 +1004,9 @@
   }
 
   .text-become {
-    font-size: 30px;
+    font-size: 23px;
     margin-top: 13px;
+    -webkit-text-stroke-width: 1px;
   }
 
   .become {
@@ -969,16 +1014,29 @@
   }
 
   .text-startlearning {
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 0px;
+    padding: 8px 25px;
   }
 
   .icon-feedback {
     margin-left: -16px;
-    top: 27%;
+    top: 23%;
   }
 
   .fa-chevron-circle-right:before {
-    margin-top: 133px;
+    margin-top: 74px;
+  }
+
+  .html-css {
+    height: 164px;
+  }
+
+  .laravel-logo {
+    height: 164px;
+  }
+
+  .php-java {
+    height: 164px;
   }
 }
