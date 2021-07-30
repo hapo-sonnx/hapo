@@ -73,18 +73,19 @@
   background: $cg-color;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
+  font-family: $font_UTM_BryantLG;
   &:hover {
     color: black;
   }
 }
 
 .group {
-  padding: 123px;
+  padding: 87px;
   margin-top: -187px;
 }
 
 .text-ruby {
-  padding: 123px;
+  padding: 87px;
   margin-top: -54px;
 }
 
@@ -97,7 +98,6 @@
 
 .text-take {
   box-shadow: inset 0px 1.5px 2px #6f8710;
-  width: 60%;
   height: 40px;
 }
 
@@ -166,18 +166,16 @@
   font-family: $font_UTM_BryantLG;
   color: #505353;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
-  height: 100px;
 }
 
 .card-text-new {
   font-family: $font_UTM_BryantLG;
   color: #505353;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
-  height: 70px;
 }
 
 .card-img-left {
@@ -189,7 +187,7 @@
 .card-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 28px;
   line-height: 37px;
   letter-spacing: -0.05em;
   color: $cg-color;
@@ -280,13 +278,14 @@
   box-shadow: inset 0px 1.5px 2px #6f8710;
   border-radius: 40px;
   font-weight: 600;
-  font-size: 13px;
-  padding: 8px 0px;
+  font-size: 18px;
+  padding: 6px 32px;
   margin: 10px 0;
   color: white;
   font-family: "utm_bryantlgregular";
   &:hover {
     color: black;
+    border-color: white;
   }
 }
 
@@ -350,6 +349,7 @@
   justify-content: center;
   margin: 0;
   margin-top: 20px;
+  position: relative;
 }
 
 .feedback-content-row {
@@ -429,6 +429,7 @@
 }
 
 .icon-feedbackright {
+  display: contents;
   top: 24%;
   left: 96%;
   font-weight: 300;
@@ -443,6 +444,11 @@
     text-decoration: none;
     color: #969494;
   }
+}
+
+.fa-chevron-circle-right:before { 
+  margin-top: 62px;
+  margin-left: -29px;
 }
 
 .become {
@@ -743,6 +749,7 @@
     width: 100%;
     position: absolute;
     top: 43%;
+    margin-left: 19px;
   }
 
   .text-learn {
