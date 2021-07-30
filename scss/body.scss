@@ -80,13 +80,13 @@
 }
 
 .group {
-  padding: 87px;
-  margin-top: -187px;
+  padding: 87px 0px;
+  margin-top: -147px;
 }
 
 .text-ruby {
-  padding: 87px;
-  margin-top: -54px;
+  padding: 0px;
+  margin-top: 41px;
 }
 
 .btn-primary {
@@ -166,15 +166,24 @@
   font-family: $font_UTM_BryantLG;
   color: #505353;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1140px;
 }
 
 .card-text-new {
   font-family: $font_UTM_BryantLG;
   color: #505353;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -235,7 +244,7 @@
 
 .view {
   text-align: center;
-  margin-top: -10px;
+  margin-top: 39px;
 }
 
 .btn-text-view {
@@ -300,7 +309,7 @@
 
 .img-laptop {
   position: absolute;
-  top: 116rem;
+  top: 114rem;
 }
 
 .img-mobi {
@@ -373,12 +382,8 @@
 
 .seed {
   position: absolute;
-  margin-top: 9.25em;
-  border-left: 19px solid transparent;
-  border-right: 19px solid transparent;
-  border-top: 20px solid $ag-color;
-  width: 5%;
-  padding: 0px;
+  margin-top: 74px;
+  width: 26%;
 }
 
 .user-feedback {
@@ -447,6 +452,8 @@
   margin-top: 62px;
   margin-left: -29px;
   z-index: 999;
+  background: white;
+  height: 30px;
 }
 
 .become {
@@ -593,8 +600,9 @@
   }
 
   .card-text-new {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 0px;
+    line-height: 19px;
   }
 
   .card-title {
@@ -604,10 +612,11 @@
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+    line-height: 22px;
   }
 
   .card-text {
-    font-size: 13px;
+    font-size: 14px;
     overflow: hidden;
     width: 100%;
     display: -webkit-box;
@@ -617,7 +626,13 @@
 
   .group {
     padding: 0px;
-    margin-top: -87px;
+    margin-top: -71px;
+    max-width: 712px;
+  }
+
+  .col-text {
+    padding-right: 3px;
+    padding-left: 11px;
   }
 
   .other {
@@ -664,6 +679,7 @@
   .text-ruby {
     padding: 0px;
     margin-top: 47px;
+    max-width: 712px;
   }
 
   .why-hapo {
@@ -694,8 +710,15 @@
     font-size: 14px;
   }
 
+  .inner {
+    margin-top: 55px;
+  }
+
   .text-why {
-    font-size: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: -2em;
+    right: -5em;
   }
 
   .feedback-left {
@@ -711,8 +734,7 @@
   }
 
   .seed {
-    width: 4%;
-    margin-top: 11.25em;
+    margin-top: 89px;
   }
 
   .text-static {
@@ -789,7 +811,7 @@
   }
 
   .banner-text {
-    width: 94%;;
+    width: 94%;
     position: absolute;
     top: 43%;
     margin-left: 19px;
@@ -807,7 +829,7 @@
   .navbar {
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 94%;
     padding: 0;
   }
 
@@ -957,6 +979,6 @@
   }
 
   .fa-chevron-circle-right:before {
-    margin-top:133px;
+    margin-top: 133px;
   }
 }

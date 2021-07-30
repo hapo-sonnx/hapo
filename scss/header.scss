@@ -5,6 +5,10 @@
   margin-bottom: 14px;
 }
 
+.close {
+  display: none;
+}
+
 :root {
   width: 100%;
   height: 100%;
@@ -124,6 +128,10 @@
     padding: 0;
   }
 
+  .img-close-header {
+    display: none;
+  }
+
   .navbar {
     background-color: $w-color;
     display: flex;
@@ -137,7 +145,7 @@
     top: 0;
     padding: 0;
     border: 0;
-    margin-top: 19px;
+    margin-top: 5px;
   }
 
   .collapse:not(.show) {
@@ -149,8 +157,8 @@
   }
 
   .img-hapo {
-    width: 70%;
-    margin-left: 33px;
+    width: 58%;
+    margin-left: 74px;
     position: initial;
     top: 0;
   }
@@ -162,4 +170,5 @@
   .navbar-nav {
     align-items: center;
   }
+
 }
