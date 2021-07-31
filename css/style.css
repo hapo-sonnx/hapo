@@ -128,7 +128,7 @@
     margin-top: 5px; }
 
   .collapse:not(.show) {
-    display: none; }
+    display: none !important; }
 
   .navbar-toggler-icon {
     font-size: inherit; }
@@ -1018,6 +1018,22 @@
 
   .php-java {
     height: 164px; } }
+@media (min-width: 1056px) and (max-width: 1435px) {
+  .img-mobi {
+    width: 100%; } }
+@media (min-width: 950px) and (max-width: 1047px) {
+  .img-mobi {
+    width: 100%; }
+
+  .text-why {
+    color: aliceblue;
+    font-size: 61px;
+    font-family: "utm_bryantlgregular";
+    font-weight: 700; }
+
+  .text-interactive {
+    color: aliceblue;
+    font-size: 16px; } }
 .footer {
   background-color: #505353;
   margin-top: 60px;
@@ -1394,7 +1410,7 @@
 
   .text-mess {
     width: 43%;
-    bottom: 31%;
+    bottom: 38%;
     right: 31px; }
 
   .img-icon {
@@ -1406,10 +1422,17 @@
 
   .button-messenger {
     margin-left: 18px;
-    padding: 8px 35px; }
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px; }
 
   .chat-with-txt {
-    margin-left: 16px; }
+    margin-left: 16px;
+    margin-bottom: 0;
+    margin-top: 10px; }
 
   .pass {
     margin-left: 0px; } }
@@ -1464,7 +1487,8 @@
     margin-left: 19rem; }
 
   .login-text {
-    margin-top: 0px; }
+    margin-top: 0px;
+    font-size: 21px; }
 
   .terms {
     margin-left: 66px; }
@@ -1473,6 +1497,23 @@
     font-size: 16px; }
 
   .text-login a:hover {
-    color: white !important; } }
+    color: white !important; }
+
+  .label-username {
+    font-size: 19px; }
+
+  .pass {
+    font-size: 19px; }
+
+  .text-username {
+    width: 98%;
+    line-height: 30px; }
+
+  .text-gg {
+    margin-top: 15px;
+    padding: 4px 0; }
+
+  .text-face {
+    padding: 4px 0; } }
 
 /*# sourceMappingURL=style.css.map */

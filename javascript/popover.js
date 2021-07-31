@@ -24,8 +24,12 @@ function hideheader() {
   document.getElementById("navbarSupportedContent").style.display = "none";
 }
 
-function hidenav() {
-  document.getElementById("navbarSupportedContent").style.display = "none";
-  document.getElementById("hideheader").style.display = "none";
-  document.getElementById("showheader").style.display = "block";
-}
+$(document).ready(function () {
+  $('.btn-x').click(function () {
+    if ($('.collapse').hasClass("show")){
+      $(".collapse").removeClass("show");
+      $(".navbar-toggler-icon").css({ "display": "inline-block" })      
+      $(".img-close-header").css({ "display": "none" })
+    }
+  });
+});

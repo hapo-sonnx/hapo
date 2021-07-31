@@ -111,6 +111,7 @@
     position: absolute;
     top: 64%;
     right: 3px;
+    
   }
 
   .collapse:not(.show) {
@@ -154,7 +155,7 @@
   }
 
   .collapse:not(.show) {
-    display: none;
+    display: none !important;
   }
 
   .navbar-toggler-icon {

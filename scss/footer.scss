@@ -435,7 +435,7 @@
 
   .text-mess {
     width: 43%;
-    bottom: 31%;
+    bottom: 38%;
     right: 31px;
   }
 
@@ -450,11 +450,18 @@
 
   .button-messenger {
     margin-left: 18px;
-    padding: 8px 35px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
   }
 
   .chat-with-txt {
     margin-left: 16px;
+    margin-bottom: 0;
+    margin-top: 10px;
   }
 
   .pass {
@@ -526,6 +533,7 @@
 
   .login-text {
     margin-top: 0px;
+    font-size: 21px;
   }
 
   .terms {
@@ -538,5 +546,23 @@
 
   .text-login a:hover {
     color: white !important;
+  }
+
+  .label-username {
+    font-size: 19px;
+  }
+  .pass {
+    font-size: 19px;
+  }
+  .text-username {
+    width: 98%;
+    line-height: 30px;
+  }
+  .text-gg {
+    margin-top: 15px;
+    padding: 4px 0;
+  }
+  .text-face {
+    padding: 4px 0;
   }
 }
