@@ -93,11 +93,6 @@
 
   .text-text {
     height: 36px;
-    background-color: #ffffff;
-  }
-
-  .texthome {
-    color: #b2d235 !important;
   }
 
   .img-hapo {
@@ -183,6 +178,23 @@
 
   .nav-link {
     margin-top: 10px;
+  }
+
+  .collapse:not(.show) .navbar-nav  {
+    flex-direction: column !important;
+  }
+
+  .texthome {
+    color: rgba(0,0,0,.55) !important;
+  }
+
+  .text-text {
+    background-color: #ffffff;
+  }
+
+  .nav-item a:hover {
+    color:#b2d235 !important ;
+    background-color: #ffffff;
   }
 
 }

@@ -23,3 +23,9 @@ function hideheader() {
   document.getElementById("showheader").style.display = "block";
   document.getElementById("navbarSupportedContent").style.display = "none";
 }
+
+function hidenav() {
+  document.getElementById("navbarSupportedContent").style.display = "none";
+  document.getElementById("hideheader").style.display = "none";
+  document.getElementById("showheader").style.display = "block";
+}

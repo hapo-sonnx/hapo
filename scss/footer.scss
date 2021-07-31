@@ -87,6 +87,7 @@
   width: 360px;
   bottom: 24px;
   right: -15rem;
+  cursor: pointer;
 }
 
 .text-mess {
@@ -383,6 +384,15 @@
   width: 56%;
 }
 
+.img-but {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: -18px;
+  margin-top: -15px;
+}
+
 @media screen and (max-width: 768px) {
   .text-footer {
     margin-top: 54px;
@@ -439,11 +449,16 @@
   }
 
   .button-messenger {
-    margin-left: 16px;
+    margin-left: 18px;
+    padding: 8px 35px;
   }
 
   .chat-with-txt {
     margin-left: 16px;
+  }
+
+  .pass {
+    margin-left: 0px;
   }
 }
 
@@ -467,6 +482,7 @@
 
   .logo-footer {
     width: 47%;
+    margin-top: 25px;
   }
 
   .contact {
@@ -507,7 +523,7 @@
   .btn-close {
     margin-left: 19rem;
   }
-  
+
   .login-text {
     margin-top: 0px;
   }
@@ -518,5 +534,9 @@
 
   .form-check-label {
     font-size: 16px;
+  }
+
+  .text-login a:hover {
+    color: white !important;
   }
 }

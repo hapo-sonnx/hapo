@@ -81,11 +81,7 @@
     font-size: 13px; }
 
   .text-text {
-    height: 36px;
-    background-color: #ffffff; }
-
-  .texthome {
-    color: #b2d235 !important; }
+    height: 36px; }
 
   .img-hapo {
     width: 40%;
@@ -150,7 +146,20 @@
     align-items: center; }
 
   .nav-link {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .collapse:not(.show) .navbar-nav {
+    flex-direction: column !important; }
+
+  .texthome {
+    color: rgba(0, 0, 0, 0.55) !important; }
+
+  .text-text {
+    background-color: #ffffff; }
+
+  .nav-item a:hover {
+    color: #b2d235 !important;
+    background-color: #ffffff; } }
 .content-banner {
   background-image: url("../img/hapo_learn_banner.png");
   background-repeat: no-repeat;
@@ -416,7 +425,8 @@
 
 .img-laptop {
   position: absolute;
-  top: 114rem; }
+  top: -12rem;
+  left: 0px; }
 
 .img-mobi {
   width: 75%; }
@@ -432,7 +442,8 @@
 
 .text-interactive {
   color: aliceblue;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: "utm_bryantlgregular"; }
 
 .text-what {
   font-weight: 600;
@@ -479,8 +490,9 @@
 
 .seed {
   position: absolute;
-  margin-top: 74px;
-  width: 26%; }
+  width: 89px;
+  bottom: 100px;
+  left: 33px; }
 
 .user-feedback {
   margin-top: 50px; }
@@ -658,8 +670,13 @@
     width: 33%; }
 
   .card-body .text-take {
-    padding: 8px 12px;
-    font-size: 13px; }
+    padding: 5px 32px;
+    font-size: 13px;
+    margin: 0px;
+    height: 33px; }
+
+  .take {
+    margin-top: 10px; }
 
   .card-text-new {
     font-size: 14px;
@@ -733,8 +750,8 @@
     height: 446px; }
 
   .img-laptop {
-    width: 34%;
-    top: 89rem; }
+    width: 57%;
+    top: -17rem; }
 
   .fa-chevron-circle-right:before {
     margin-top: 72px; }
@@ -747,7 +764,7 @@
     margin-top: 137px !important; }
 
   .text-interactive {
-    font-size: 14px; }
+    font-size: 13px; }
 
   .inner {
     margin-top: 55px; }
@@ -768,7 +785,7 @@
     display: none; }
 
   .seed {
-    margin-top: 89px; }
+    width: 89px; }
 
   .text-static {
     font-size: 45px; }
@@ -844,8 +861,11 @@
     font-size: 20px; }
 
   .card-body .text-take {
-    padding: 6px 12px;
+    padding: 2px 33px;
     font-size: 18px; }
+
+  .take {
+    margin-top: 10px !important; }
 
   .text-start {
     width: 79%;
@@ -902,12 +922,12 @@
     font-size: 50px; }
 
   .img-laptop {
-    position: relative;
     width: 50%;
     top: -7rem; }
 
   .why-hapo {
-    height: 600px; }
+    margin-top: 352px;
+    height: 621px; }
 
   .row-why {
     display: block; }
@@ -944,9 +964,7 @@
     display: none; }
 
   .seed {
-    width: 37%;
-    margin-top: 93px;
-    margin-left: -15px; }
+    width: 89px; }
 
   .col-name {
     width: 17%; }
@@ -1076,7 +1094,8 @@
   position: fixed;
   width: 360px;
   bottom: 24px;
-  right: -15rem; }
+  right: -15rem;
+  cursor: pointer; }
 
 .text-mess {
   display: none;
@@ -1336,6 +1355,14 @@
   margin-left: 100px;
   width: 56%; }
 
+.img-but {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: -18px;
+  margin-top: -15px; }
+
 @media screen and (max-width: 768px) {
   .text-footer {
     margin-top: 54px; }
@@ -1381,10 +1408,14 @@
     height: 40px; }
 
   .button-messenger {
-    margin-left: 16px; }
+    margin-left: 18px;
+    padding: 8px 35px; }
 
   .chat-with-txt {
-    margin-left: 16px; } }
+    margin-left: 16px; }
+
+  .pass {
+    margin-left: 0px; } }
 @media screen and (max-width: 414px) {
   .footer {
     height: 400px; }
@@ -1401,7 +1432,8 @@
     margin-left: 0px; }
 
   .logo-footer {
-    width: 47%; }
+    width: 47%;
+    margin-top: 25px; }
 
   .contact {
     width: 34%; }
@@ -1441,6 +1473,9 @@
     margin-left: 66px; }
 
   .form-check-label {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .text-login a:hover {
+    color: white !important; } }
 
 /*# sourceMappingURL=style.css.map */

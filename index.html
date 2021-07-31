@@ -28,21 +28,25 @@
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" onclick="showheader()" id="showheader"></span>
-                    <span class="my-1 mx-1 close fa fa-times" onclick="hideheader()" id="hideheader" style="display:none"></span>
+                    <span class="my-1 mx-1 close fa fa-times" onclick="hideheader()" id="hideheader"
+                        style="display:none"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active text-text">
-                            <a class="nav-link texthome " href="#">HOME</a>
+                            <a class="nav-link texthome " aria-selected="false" data-toggle="pill" role="tab" href="#"
+                                onclick="hidenav()">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link all" href="#">ALL COURSES</a>
+                            <a class="nav-link all" aria-selected="false" data-toggle="pill" role="tab" href="#"
+                                onclick="hidenav()">ALL COURSES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">LOGIN/REGISTER</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PROFILE</a>
+                            <a class="nav-link" aria-selected="false" data-toggle="pill" role="tab" href="#"
+                                onclick="hidenav()">PROFILE</a>
                         </li>
                     </ul>
                 </div>
@@ -167,10 +171,10 @@
 
     <section class="container-fluid why-hapo">
         <div class="container-laptop">
-            <img class="img-laptop" src="./img/img-computer.png" alt="computer">
         </div>
         <div class="row row-why">
             <div class="col-sm-6 col-hapo col-left">
+                <img class="img-laptop" src="./img/img-computer.png" alt="computer">
                 <p class="text-why">Why HapoLearn?</p>
                 <p class="text-interactive inner">
                     <span><i class="fas fa-check-circle"></i></span>
@@ -217,7 +221,7 @@
                                 becoming a good Angular developer. Very glad to have taken this course. Thank you
                                 Eddie Bryan.”
                             </p>
-                            <div class="seed"><img src="./img/img-but.png" class="seed" alt="feedback"></div>
+                           <img src="./img/img-but.png" class="seed" alt="feedback">
                         </div>
                         <div class="row user-feedback">
                             <div class="col-2 col-img">
@@ -241,7 +245,7 @@
                                 becoming a good Angular developer. Very glad to have taken this course. Thank you
                                 Eddie Bryan.”
                             </p>
-                            <div class="seed"><img src="./img/img-but.png" class="seed" alt="feedback"></div>
+                            <img src="./img/img-but.png" class="seed" alt="feedback">
                         </div>
                         <div class="row user-feedback">
                             <div class="col-2 col-img">
@@ -271,7 +275,7 @@
                                 becoming a good Angular developer. Very glad to have taken this course. Thank you
                                 Eddie Bryan.”
                             </p>
-                            <div class="seed"><img src="./img/img-but.png" class="seed" alt="feedback"></div>
+                            <img src="./img/img-but.png" class="seed" alt="feedback">
                         </div>
                         <div class="row user-feedback">
                             <div class="col-2 col-img">
@@ -295,7 +299,7 @@
                                 becoming a good Angular developer. Very glad to have taken this course. Thank you
                                 Eddie Bryan.”
                             </p>
-                            <div class="seed"><img src="./img/img-but.png" class="seed" alt="feedback"></div>
+                            <img src="./img/img-but.png" class="seed" alt="feedback">
                         </div>
                         <div class="row user-feedback">
                             <div class="col-2 col-img">
@@ -400,7 +404,7 @@
         <div class="modal-dialog">
             <div class="modal-content modalcontent">
                 <button class="close btn-close" data-dismiss="modal" aria-label="Close">
-                    <i class="fas fa-times-circle"></i>
+                    <img class="img-but" src="./img/Vector_22.png" alt="logo mess">
                 </button>
                 <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item text-login">
@@ -417,7 +421,7 @@
                                 <label class="label-username">Username:</label>
                                 <br>
                                 <input class="text-username" type="text">
-                                <label class="label-password">Password:</label>
+                                <label class="label-password pass">Password:</label>
                                 <br>
                                 <input class="text-username" type="text">
                                 <div class="option-login">
