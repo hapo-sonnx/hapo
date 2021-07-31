@@ -1058,6 +1058,9 @@
   .text-why {
     color: aliceblue;
     font-size: 48px; } }
+@media (min-width: 1750px) and (max-width: 1920px) {
+  .img-mobi {
+    margin-top: -64px; } }
 .footer {
   background-color: #505353;
   margin-top: 60px;
