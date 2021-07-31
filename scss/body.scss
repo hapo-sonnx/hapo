@@ -695,7 +695,7 @@
     height: 446px;
   }
 
-  .img-laptop { 
+  .img-laptop {
     width: 57%;
     top: -17rem;
   }
@@ -1049,5 +1049,26 @@
 
   .php-java {
     height: 164px;
+  }
+}
+
+@media (min-width: 1056px) and (max-width: 1435px) {
+  .img-mobi {
+    width: 100%;
+  }
+}
+@media (min-width: 950px) and (max-width: 1047px) {
+  .img-mobi {
+    width: 100%;
+  }
+  .text-why {
+    color: aliceblue;
+    font-size: 61px;
+    font-family: "utm_bryantlgregular";
+    font-weight: 700;
+  }
+  .text-interactive {
+    color: aliceblue;
+    font-size: 16px;
   }
 }
