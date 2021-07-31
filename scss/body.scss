@@ -1056,6 +1056,9 @@
   .img-mobi {
     width: 100%;
   }
+  .fa-chevron-circle-right:before {
+    margin-top: 85px;
+  }
 }
 @media (min-width: 950px) and (max-width: 1047px) {
   .img-mobi {
@@ -1071,4 +1074,31 @@
     color: aliceblue;
     font-size: 16px;
   }
+  .fa-chevron-circle-right:before {
+    margin-top: 95px;
+  }
+}
+@media (min-width: 1040px) and (max-width: 1064px) {
+  .text-interactive {
+    color: aliceblue;
+    font-size: 19px;
+  }
+  .fa-chevron-circle-right:before {
+    margin-top: 90px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 945px) {
+  .text-interactive {
+    color: aliceblue;
+    font-size: 15px;
+  }
+  .img-mobi {
+    width: 107%;
+  }
+  .text-why {
+    color: aliceblue;
+    font-size: 48px;
+  }
+
 }
