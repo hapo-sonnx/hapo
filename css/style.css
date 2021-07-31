@@ -148,9 +148,6 @@
   .nav-link {
     margin-top: 10px; }
 
-  .collapse:not(.show) .navbar-nav {
-    flex-direction: column !important; }
-
   .texthome {
     color: rgba(0, 0, 0, 0.55) !important; }
 
