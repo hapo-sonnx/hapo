@@ -541,7 +541,7 @@
   }
 
   .form-check-label {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .text-login a:hover {
@@ -551,18 +551,34 @@
   .label-username {
     font-size: 19px;
   }
+  
   .pass {
     font-size: 19px;
   }
+
   .text-username {
     width: 98%;
     line-height: 30px;
   }
+
   .text-gg {
     margin-top: 15px;
     padding: 4px 0;
   }
+
   .text-face {
     padding: 4px 0;
+  }
+
+  .label-usernamee {
+    font-size: 19px;
+  }
+
+  .label-password {
+    font-size: 19px;
+  }
+
+  .login-with {
+    margin-top: -11px;
   }
 }

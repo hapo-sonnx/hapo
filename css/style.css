@@ -1521,7 +1521,7 @@
     margin-left: 66px; }
 
   .form-check-label {
-    font-size: 16px; }
+    font-size: 14px; }
 
   .text-login a:hover {
     color: white !important; }
@@ -1541,6 +1541,15 @@
     padding: 4px 0; }
 
   .text-face {
-    padding: 4px 0; } }
+    padding: 4px 0; }
+
+  .label-usernamee {
+    font-size: 19px; }
+
+  .label-password {
+    font-size: 19px; }
+
+  .login-with {
+    margin-top: -11px; } }
 
 /*# sourceMappingURL=style.css.map */
